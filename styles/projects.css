@@ -1,0 +1,20 @@
+.projectButtons {
+  padding: 25px;
+  margin-left: 80px;
+}
+
+.projectButtons1 {
+  padding-top: 45px;
+  margin-left: 80px;
+}
+
+.summary {
+  font-family: Catamaran;
+  color: #040404;
+  font-size: 18px;
+  float: right;
+  padding-top: 15px;
+  padding-right: 100px;
+    height: 200px;
+    width: 300px;
+}
