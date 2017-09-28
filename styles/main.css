@@ -13,6 +13,8 @@ margin: 0 auto;
 padding: 16px 16px;
 text-align: center;
 width: 100%;
+box-shadow: 5px 3px 4px #999; 
+    
 }
 
 .menu
@@ -86,6 +88,13 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
   width: 100%;
 }
 
+.tapLogo {
+text-align: center;
+padding-top: 40px;
+padding-bottom: 40px;
+background-color: #F4F3F0;
+}
+
 /* Media Queries */
 
  @media (min-width: 768px) {
@@ -112,3 +121,4 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
   width: 1170px;
   }
  }
+
