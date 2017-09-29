@@ -17,7 +17,6 @@ font-family: Catamaran;
 padding: 16px 16px;*/
 text-align: center;
 width: 40%;
-/*box-shadow: 5px 3px 4px #999;*/
 
 }
 
@@ -37,7 +36,7 @@ div.menu-container a
   color: #040404;
   text-decoration: none;
   font: 20px Catamaran;
-  margin: 10px 50px 10px;
+  margin: 10px 40px 10px;
   padding: 8px 8px;
   position: relative;
   z-index: 0;
@@ -49,6 +48,8 @@ nav {
   background: #FFFBEC;
   display: table;
   height: 100px;
+  box-shadow: 5px 4px 10px #3d3d3d;
+  
 }
 
 nav div {
@@ -95,6 +96,41 @@ div.borderYtoX a:hover:before, div.borderYtoX a:hover:after
   opacity: 1;
   height: 2px;
   width: 100%;
+}
+
+
+/* Mini Bio */
+p {
+    font-family: Catamaran;
+    font-size: 24px;
+    text-align: center;
+    float: right;
+    max-width: 50%;
+    padding-right: 60px;
+    margin-top: -110px;
+    color: #fff;
+}
+
+button {
+    background-color: #032A53;
+    float: right;
+}
+
+section {
+    margin-top: 2px;
+    padding: 200px;
+    background: linear-gradient(-45deg, #032A53, #2AA197);
+    
+}
+
+.aleximage {
+    float: left;
+    max-height: 320px;
+    width: auto;
+    position: absolute;
+    box-shadow: 2px 2px 8px #032A53;
+    margin-top: -160px;
+    margin-left: 80px;
 }
 
 /* Tap & Go */
