@@ -196,8 +196,8 @@ h3 {
 .btn-app img {
     height: 50px;
     width: auto;
-    margin-bottom: -5%;
     padding-left: 50px;
+    display: block;
 }
 
 .section-projects {
@@ -245,7 +245,7 @@ h3 {
 
 .footer-section {
     background-color: #1abc9c;
-    padding: 40px 0px;
+    padding: 30px 0px;
     
 }
 
@@ -273,6 +273,15 @@ h3 {
 .footer-nav li a:active {
     border-bottom: 2px solid #555;
 }
+
+
+.footer-nav-ext li{
+    float: left; 
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
 
 /*-------------------------*/
 /*-- BUTTONS       --------*/
@@ -412,7 +421,8 @@ input[type=submit]:active {
 .oak-title {
     background-color: #f4f4f4;
     padding-top: 30px;
-    padding-bottom: 15px;
+    height: 70px;
+    text-align: center;
 }
 
 .oak-title h2:after {
@@ -456,6 +466,13 @@ input[type=submit]:active {
 /*-------------------------*/
 /*-- LIBRA         --------*/
 /*-------------------------*/
+
+.libra-title {
+    background-color: #f4f4f4;
+    padding-top: 30px;
+    height: 120px;
+    text-align: center;
+}
 
 .libra-hero {
     background-image: url(img/libraheroimage.png);
