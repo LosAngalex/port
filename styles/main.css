@@ -498,6 +498,40 @@ input[type=submit]:active {
 }
 
 /*-------------------------*/
+/*-- ABOUT         --------*/
+/*-------------------------*/
+/* GREEN COLOR: #16a085 */
+
+.selfie {
+    height: 400px;
+    width: auto;
+    margin-left: 20%;
+    border-radius: 20%;
+    transform: rotate(-7deg);
+    box-shadow: 2px 2px 10px #16a085;
+}
+
+
+.alex-about {
+    background-color: #fff;
+    vertical-align: middle; 
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------*/
 /*-- DROPDOWN MENU --------*/
 /*-------------------------*/
 /* GREEN COLOR: #16a085 */
