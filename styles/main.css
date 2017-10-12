@@ -32,6 +32,26 @@ section {
     visibility: hidden;
 }
 
+.summary {
+    font-size: 110%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 175%;
+}
+
+.summary-about {
+    font-size: 110%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 175%;
+    color: #fff;
+}
+
+
+.row-pad {
+    margin-top: 50px;
+}
+
 /*-------------------------*/
 /*-- HEADER  --------------*/
 /*-------------------------*/
@@ -54,9 +74,8 @@ header {
 
 h1 {
     margin-top: 0;
-    margin-bottom: 20px;
     color: #fff; 
-    font-size: 240%; 
+    font-size: 220%; 
 }
 
 h1, 
@@ -84,10 +103,13 @@ h2:after {
 }
 
 h3 {
-    font-size: 110%;
-    margin-bottom: 15px;
-    text-align: center;
     font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 110%;
+    text-align: center;
+    color: #1abc9c;
 }
 
 .logo {
@@ -95,6 +117,11 @@ h3 {
     width: auto;
     float: left;
     margin-top: 30px;
+}
+
+
+.span-pad {
+    margin-top: 40px;
 }
 
 /*-------------------------*/
@@ -156,10 +183,10 @@ h3 {
     margin-top: 60px;
 }
 
-.project-buttons {
+/*.project-buttons {
     margin-top: 40px;
     margin-bottom: 30px;
-}
+} */
 
 .btn-app:link,
 .btn-app:visited {
@@ -167,9 +194,10 @@ h3 {
 }
 
 .btn-app img {
-    height: 130px;
+    height: 50px;
     width: auto;
-    padding: 0 20px;
+    margin-bottom: -5%;
+    padding-left: 50px;
 }
 
 .section-projects {
@@ -306,14 +334,13 @@ input[type=submit]:active {
 
 .next-btn {
     float: right;
-    text-transform: none;
-    line-height: 120%;
-    vertical-align: middle;
-    width: 60px;
-    text-align: center;
-    font-size: 75%;
-    font-weight: 300;
-    text-decoration: none;
+    margin-top: 15px;
+}
+
+.btn-txt {
+    color: #1abc9c;
+    display: inline-block;
+    margin-left: 85%;
 }
 
 
@@ -345,14 +372,6 @@ input[type=submit]:active {
     vertical-align: middle; 
 }
 
-/*.tap-screens h2 {
-    padding: 30px 0px;
-}*/
-
-.tap-screens h3 {
-    margin: 60px 30px;
-}
-
 .img3 {
     margin-left: 140px;
     resize: 180%
@@ -362,10 +381,6 @@ input[type=submit]:active {
     margin-left: 120px;
     width: 58%;
     height: auto;
-}
-
-.h3-pad {
-    padding-top: 160px;
 }
 
 .tap-case {
@@ -435,4 +450,32 @@ input[type=submit]:active {
 .oak-style  {
     padding: 40px;
     margin-left: 6%;
+}
+
+
+/*-------------------------*/
+/*-- LIBRA         --------*/
+/*-------------------------*/
+
+.libra-hero {
+    background-image: url(img/libraheroimage.png);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.libra-screens {
+    background-color: #f4f4f4;
+    vertical-align: middle; 
+}
+
+
+.libra-pkg {
+    margin-left: 22%;
+}
+
+.libra-style  {
+    padding: 40px;
 }
