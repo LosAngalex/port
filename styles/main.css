@@ -479,3 +479,72 @@ input[type=submit]:active {
 .libra-style  {
     padding: 40px;
 }
+
+/*-------------------------*/
+/*-- DROPDOWN MENU --------*/
+/*-------------------------*/
+/* GREEN COLOR: #16a085 */
+
+ul {     
+    padding:0;     
+    margin:0;   
+}    
+a {    
+    display:block;    
+    text-decoration: none;
+    
+}    
+li {    
+    display:block;     
+    float:left; 
+    
+}    
+li ul li {    
+    float:none;    
+}    
+li ul {    
+    display:none;     
+    position:absolute;     
+    z-index:1    
+}    
+li:hover ul {    
+    display:block;
+}    
+    
+/*DROPDOWN STYLING:*/    
+#menu {    
+    height:30px    
+}    
+#menu a {    
+    color:#16a085;     
+    padding:10px 15px 10px 15px;    
+}    
+#menu a:hover {    
+    color:#F4F4F4;    
+}    
+#menu li {    
+    background-color:#F4F4F4;     
+    border:solid 1px #16a085;      
+    margin-left:-1px; 
+    width: 200%;
+}    
+#menu li:hover {    
+    background-color: #16a085; 
+    transition: background-color 0.5s ease;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,11 +2,11 @@
 <html>
 <head>
 <title>Alex Garcia - Web Designer</title>
-    
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/form.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+ 
 </head>
 
 <body>
@@ -16,9 +16,19 @@
                 <div class="row">
                     <a href="index.html"><img src="assets/alexface.png" alt="logo" class="logo"></a>
                     <ul class="main-nav">
-                        <li><a href="#">Projects</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Projects</a>
+<!-- This right here is the dropdown menu -->
+                            <ul id='menu'>    
+                                <ul>    
+                                    <li><a href='tapgo.html'>Tap & Go</a></li>    
+                                    <li><a href='oakvine.html'>Oak & Vine</a></li>    
+                                    <li><a href='libra.html'>Libra</a></li>    
+                                </ul> 
+                            </ul>
+                        </li>       
+<!-- This is the end of the dropdown menu. Add this right after Projects</a> -->
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
             </nav>          
