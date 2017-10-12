@@ -519,18 +519,6 @@ input[type=submit]:active {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*-------------------------*/
 /*-- DROPDOWN MENU --------*/
 /*-------------------------*/
@@ -584,13 +572,18 @@ li:hover ul {
     transition: background-color 0.5s ease;
 }  
 
+/*-------------------------*/
+/*-- TYPEFORM --------*/
+/*-------------------------*/
+.typeform-widget {
+    width: 100%;
+    height: 350px;
+}
 
 
-
-
-
-
-
+#fixed-footer .by .button {
+    display: none;
+}
 
 
 
