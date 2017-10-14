@@ -78,9 +78,11 @@ header {
 }
 
 h1 {
-    margin-top: 0;
+    margin-top: 10%;
     color: #fff; 
-    font-size: 220%; 
+    font-size: 210%;
+    line-height: 70px;
+    text-align: left;
 }
 
 h1, 
@@ -132,6 +134,7 @@ p {
     height: 90px;
     width: auto;
     float: left;
+    margin-left: 80px;
     margin-top: 30px;
 }
 
@@ -149,6 +152,7 @@ p {
     float: right; 
     list-style: none;
     margin-top: 55px;
+    padding-right: 80px;
 }
 
 .main-nav li {
@@ -223,6 +227,9 @@ p {
     margin-left: 15px;
 }
 
+.padding-btm {
+    padding-bottom: 6%;
+}
 
 /*-------------------------*/
 /*-- ABOUT ME      --------*/
@@ -265,7 +272,7 @@ p {
     float: right; 
     list-style: none;
     display: inline-block;
-    margin-left: 80px;
+    margin-right: 80px;
 }
 
 
@@ -354,8 +361,8 @@ input[type=submit]:active {
 }
 
 .next-btn {
-    float: right;
-    margin-top: 15px;
+    margin-top: -25px;
+    margin-bottom: 3%;
 }
 
 .btn-txt {
