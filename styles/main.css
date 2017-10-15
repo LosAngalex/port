@@ -27,9 +27,6 @@ div {
     margin: 0 auto;
 }
 
-/*section {
-    padding: 80px 0px;
-} */
 
 .box {
     padding: 1%;
@@ -57,6 +54,11 @@ div {
     margin-top: 50px;
 }
 
+
+.no-pad h2 {
+    margin-top: 0% !important;
+}
+
 /*-------------------------*/
 /*-- HEADER  --------------*/
 /*-------------------------*/
@@ -65,7 +67,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
     background-size: contain;
     background-position: center;
-    height: 600px;
+    height: 90vh;
     background-attachment: fixed;
 }
 
@@ -80,25 +82,29 @@ header {
 h1 {
     margin-top: 6%;
     color: #fff; 
-    font-size: 210%;
-    line-height: 70px;
+    font-size: 260%;
+    line-height: 80px;
     text-align: left;
+    font-family: 'Josefin Slab';
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    font-weight: 300;
 }
 
-h1, 
+ 
 h2 {
     font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 1px;
     word-spacing: 3px;
-}
-
-h2 {
     font-size: 170%;
     text-align: center;
     margin-bottom: 30px;
-    padding-top: 4%;
+    padding-top: 3%;
 }
+
+
+    
 
 h2:after {
     display: block;
@@ -475,9 +481,6 @@ input[type=submit]:active {
     vertical-align: middle; 
 }
 
-/*.tap-screens h2 {
-    padding: 30px 0px;
-}*/
 
 .oak-screens h3 {
     margin: 60px 30px;
