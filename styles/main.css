@@ -50,6 +50,15 @@ div {
 }
 
 
+.summary-proto {
+    font-size: 100%;
+    text-align: center;
+    font-weight: 300;
+    line-height: 175%;
+    color: #555;
+    margin: 0px 80px 20px 80px;
+}
+
 .row-pad {
     margin-top: 50px;
 }
