@@ -137,6 +137,20 @@ p {
 }
 
 
+p {
+    font-size: 100%;
+    line-height: 160%;
+    font-weight: 300;
+    word-spacing: 3px;
+    padding: 0px 210px 0px 210px;
+    text-align: center;
+}
+
+
+
+
+
+
 .logo {
     height: 90px;
     width: auto;
@@ -462,7 +476,7 @@ input[type=submit]:active {
 
 .oak-title h2:after {
     display: block;
-    height: 2px;
+    height: 2px;p
     background-color: transparent;
     content: " ";
     width: 100px;
