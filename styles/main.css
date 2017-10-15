@@ -448,8 +448,10 @@ input[type=submit]:active {
     margin-top: -40px;
 }
 
-.personas {
-    padding: 40px 0 40px 0;
+.persona {
+    width: 550px;
+    height: auto;
+    padding: 10px 0px 10px 0px;
 }
 
 
