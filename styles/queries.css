@@ -8,14 +8,17 @@
         margin-left: 10%;
     }
     
-   
 
-/* Phones/tablets that are smaller than iPad*/
-@media only screen (max-width: 767px) {
-    body { font-size: 16px; }
-    section { padding: 30px 0; }
     
     
+
+/* iPhone 6 Plus landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 3)
+{
     .hero-text-box,
     .nav-tap,
     .tap-title,
@@ -31,7 +34,11 @@
     .nav-tap, 
     .oak-hero,
     .libra-hero {
-        background-size: cover
+        background-size: cover;
+        background-size: 50%;
+        background-repeat: no-repeat;
+        width: 100%;
+
     }
     
     
@@ -96,6 +103,17 @@
         width: 100%;
         margin-left: 0%;
     }
+    
+    }
+    
+    
+
+/* Phones/tablets that are smaller than iPad*/
+@media only screen (max-width: 767px) {
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    
     
     .app-screen { width: 40%; }
     .steps-box:first-child { text-align: center; }
