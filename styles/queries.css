@@ -3,7 +3,7 @@
     body { font-size: 18px; }
     section { padding: 60px 0; }
     
-    .long-copy {
+    div {
         width: 80%;
         margin-left: 10%;
     }
@@ -54,16 +54,19 @@
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
     
+    div,
     .main-nav {
         float: left;
         margin-top: 30px;
         margin-left: 25px;
     }
     
+    div,
     .main-nav li {
         display: block;
     }
     
+    div,
     .main-nav li a:link,
     .main-nav li a:visited {
         display: block;
@@ -86,8 +89,8 @@
     h2 { font-size: 150%; }
     h3 { font-size: 120%; }
     
-    .p,
-    .p2 {
+    p,
+    p2 {
         width: 100%;
         margin-left: 0%;
     }
