@@ -15,19 +15,44 @@
     body { font-size: 16px; }
     section { padding: 30px 0; }
     
+    
+    .hero-text-box,
+    .nav-tap,
+    .tap-title,
+    .tap-hero, 
+    .tap-screens {
+        width: 100%;
+    }
+    
+    
+    .tap-case, 
+    header,
+    .section-about,
+    .nav-tap, 
+    .oak-hero,
+    .libra-hero {
+        background-size: cover
+    }
+    
+    
+    .span-pad {
+        margin-top: 10px;
+    }
+    
     .row,
-    .hero-text-box { padding: 0 3% 0 3%}
     .col { 
         width: 100%;
         margin: 0 0 4% 0;
     }
+
     
+    .main-nav { 
+        display: none; 
+    }
     
-    
-    
-    
-    .main-nav { display: none; }
-    .mobile-nav-icon {display: inline-block;}
+    .mobile-nav-icon {
+        display: inline-block;
+    }
     
     div,
     .nav {
@@ -88,10 +113,3 @@
     
 }
 
-
-/* Small phones: from 0 to 480px */
-@media only screen (max-width: 480px) {
-    section { padding: 25px 0; }
-    .contact-form {width: 100%; }
-    
-}
