@@ -60,7 +60,7 @@ div {
 }
 
 .row-pad {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 
@@ -155,11 +155,6 @@ p2 {
     text-align: center;
 }
 
-
-
-
-
-
 .logo {
     height: 90px;
     width: auto;
@@ -170,7 +165,7 @@ p2 {
 
 
 .span-pad {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 
@@ -440,6 +435,7 @@ input[type=submit]:active {
 }
 
 .tap-screens {
+    margin-top: 40px;
     background-color: #fff;
     vertical-align: middle; 
 }
@@ -533,8 +529,8 @@ input[type=submit]:active {
 
 .libra-title {
     background-color: #f4f4f4;
-    padding-top: 30px;
-    height: 120px;
+    padding-top: 10px;
+    height: 180px;
     text-align: center;
 }
 
@@ -653,5 +649,4 @@ li:hover ul {
 
 .section-contact {
     background-color: #ffffff;
-    margin-top: 20px;
 }
