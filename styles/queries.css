@@ -23,6 +23,9 @@
     }
     
     
+    
+    
+    
     .main-nav { display: none; }
     .mobile-nav-icon {display: inline-block;}
     
@@ -56,7 +59,10 @@
 }
     
         
-    h1 { font-size: 180%; }
+    h1 { 
+        font-size: 160%; 
+        text-align: center;
+    }
     h2 { font-size: 150%; }
     h3 { font-size: 120%; }
     
