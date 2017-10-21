@@ -233,15 +233,17 @@ FOOTER
 MEDIA QUERIES
 -------------------------*/
 
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 800px) {
     h1 {
         font-size: 150%;
         margin-top: 1%;
         text-align: center;
     } 
     
-    .bg-leaf-1 {
+    .bg-leaf-1,
+    .bg-leaf-2 {
         height: 70vh;
+        background-attachment: scroll;
     }
     
     .logo  {
