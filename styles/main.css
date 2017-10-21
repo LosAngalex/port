@@ -220,20 +220,15 @@ FOOTER
     display: block;
 }
 
-.footer-nav-ext li{
+.footer-nav-ext li {
     float: left; 
     list-style: none;
     display: inline;
     margin-left: 20px;
+}
 
-
-
-
-/*-------------------------
-MEDIA QUERIES
--------------------------*/
-
-@media screen and (max-width: 800px) {
+   @media screen and (max-width: 800px) {
+        
     h1 {
         font-size: 150%;
         margin-top: 1%;
@@ -247,27 +242,10 @@ MEDIA QUERIES
     }
     
     .logo  {
-    width: 90%;
-    display: inline-block;
-    margin: 0 auto;
+        margin: 0 40%;
+        margin-top: 20px;
     }
-    
-    
-    .footer-nav ul {
-        width: 100%;
-        text-align: center;
-        margin: 10px 0;
-        padding: 0;
-    }
-    
-    
-    .footer-nav li {
-        display: block;
-        padding: 10px;
-        background-color: red;
-    }
-    
-    
+     
     .main-nav {
         list-style: none;
         margin-top: 2%;
@@ -282,8 +260,8 @@ MEDIA QUERIES
     .main-nav li {
         display: inline-block;
         margin: 0px 15px;
-    }
-
+     }
+}
 
 
 
