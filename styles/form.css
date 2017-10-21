@@ -1,4 +1,131 @@
-/*  SECTIONS  ============================================================================= */
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+/*  GRID OF TWELVE  */
+.span_12_of_12 {
+	width: 100%;
+}
+
+.span_11_of_12 {
+  	width: 91.53%;
+}
+.span_10_of_12 {
+  	width: 83.06%;
+}
+
+.span_9_of_12 {
+  	width: 74.6%;
+}
+
+.span_8_of_12 {
+  	width: 66.13%;
+}
+
+.span_7_of_12 {
+  	width: 57.66%;
+}
+
+.span_6_of_12 {
+  	width: 49.2%;
+}
+
+.span_5_of_12 {
+  	width: 40.73%;
+}
+
+.span_4_of_12 {
+  	width: 31.26%;
+}
+
+.span_3_of_12 {
+  	width: 23.8%;
+}
+
+.span_2_of_12 {
+  	width: 15.33%;
+}
+
+.span_1_of_12 {
+  	width: 6.866%;
+}
+
+/*  GO FULL WIDTH BELOW 800 PIXELS */
+@media only screen and (max-width: 800px) {
+	.col {  margin: 1% 0 1% 0%; }
+    
+    .span_1_of_12, .span_2_of_12, .span_3_of_12, .span_4_of_12, .span_5_of_12, .span_6_of_12, .span_7_of_12, .span_8_of_12, .span_9_of_12, .span_10_of_12, .span_11_of_12, .span_12_of_12 {
+	width: 100%; 
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  SECTIONS  ============================================================================= 
 
 .section {
 	clear: both;
@@ -6,10 +133,10 @@
 	margin: 0px;
 }
 
-/*  GROUPING  ============================================================================= */
+/*  GROUPING  ============================================================================= 
 
 .row {
-    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) 
 }
 
 .row:before,
@@ -21,7 +148,7 @@
     clear:both;
 }
 
-/*  GRID COLUMN SETUP   ==================================================================== */
+/*  GRID COLUMN SETUP   ==================================================================== 
 
 .col {
 	display: block;
@@ -32,17 +159,17 @@
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
 
 
-/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.col { 
-		/*margin: 1% 0 1% 0%;*/
+		/*margin: 1% 0 1% 0%;
         margin: 0;
 	}
 }
 
 
-/*  GRID OF TWO   ============================================================================= */
+/*  GRID OF TWO   ============================================================================= 
 
 
 .span-2-of-2 {
@@ -53,7 +180,7 @@
 	width: 49.2%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-2-of-2 {
@@ -65,8 +192,7 @@
 }
 
 
-/*  GRID OF THREE   ============================================================================= */
-
+/*  GRID OF THREE   ============================================================================= 
 	
 .span-3-of-3 {
 	width: 100%; 
@@ -81,7 +207,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-3-of-3 {
@@ -95,7 +221,7 @@
 	}
 }
 
-/*  GRID OF FOUR   ============================================================================= */
+/*  GRID OF FOUR   ============================================================================= 
 
 	
 .span-4-of-4 {
@@ -115,7 +241,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-4-of-4 {
@@ -133,7 +259,7 @@
 }
 
 
-/*  GRID OF FIVE   ============================================================================= */
+/*  GRID OF FIVE   ============================================================================= 
 
 	
 .span-5-of-5 {
@@ -157,7 +283,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-5-of-5 {
@@ -178,7 +304,7 @@
 }
 
 
-/*  GRID OF SIX   ============================================================================= */
+/*  GRID OF SIX   ============================================================================= 
 
 
 .span-6-of-6 {
@@ -206,7 +332,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-6-of-6 {
@@ -231,7 +357,7 @@
 
 
 
-/*  GRID OF SEVEN   ============================================================================= */
+/*  GRID OF SEVEN   ============================================================================= 
 
 
 .span-7-of-7 {
@@ -263,7 +389,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-7-of-7 {
@@ -290,7 +416,7 @@
 }
 
 
-/*  GRID OF EIGHT   ============================================================================= */
+/*  GRID OF EIGHT   ============================================================================= 
 
 	
 .span-8-of-8 {
@@ -326,7 +452,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-8-of-8 {
@@ -356,7 +482,7 @@
 }
 
 
-/*  GRID OF NINE   ============================================================================= */
+/*  GRID OF NINE   ============================================================================= 
 
 
 .span-9-of-9 {
@@ -396,7 +522,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-9-of-9 {
@@ -429,7 +555,7 @@
 }
 
 
-/*  GRID OF TEN   ============================================================================= */
+/*  GRID OF TEN   ============================================================================= 
 
 
 .span-10-of-10 {
@@ -473,7 +599,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-10-of-10 {
@@ -509,8 +635,7 @@
 }
 
 
-/*  GRID OF ELEVEN   ============================================================================= */
-
+/*  GRID OF ELEVEN   =============================================================================
 .span-11-of-11 {
 	width: 100%;
 }
@@ -556,7 +681,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-11-of-11 {
@@ -595,7 +720,7 @@
 }
 
 
-/*  GRID OF TWELVE   ============================================================================= */
+/*  GRID OF TWELVE   ============================================================================= 
 
 .span-12-of-12 {
 	width: 100%;
@@ -646,7 +771,7 @@
 }
 
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS 
 
 @media only screen and (max-width: 480px) {
 	.span-12-of-12 {
