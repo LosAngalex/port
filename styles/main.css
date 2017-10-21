@@ -15,6 +15,10 @@ div {
     text-align: center;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 
 .row-oak {
     max-width: 1140px;
@@ -237,7 +241,7 @@ p2 {
 
 .section-projects {
     background-color: #ecf0f1;
-    background-size: cover;
+    background-size: contain;
     background-attachment: fixed;
 }
 
@@ -274,7 +278,7 @@ p2 {
 
 .section-about {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor2.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     height: 100;
     background-attachment: fixed;
@@ -490,7 +494,7 @@ input[type=submit]:active {
     background-position: center;
     height: 300px;
     color: #fff;
-    background-attachment: fixed;
+    
 }
 
 .oak-screens {
@@ -535,7 +539,7 @@ input[type=submit]:active {
     background-position: center;
     height: 300px;
     color: #fff;
-    background-attachment: fixed;
+   
 }
 
 .libra-screens {
@@ -628,14 +632,8 @@ li:hover ul {
 }  
 
 /*-------------------------*/
-/*-- TYPEFORM / CONTACT ---*/
+/*-- CONTACT --------------*/
 /*-------------------------*/
-
-.typeform-widget {
-    width: 100%;
-    height: 350px;
-}
-
 
 #fixed-footer .by .button {
     display: none;
@@ -645,3 +643,28 @@ li:hover ul {
 .section-contact {
     background-color: #ffffff;
 }
+
+
+/*-------------------------*/
+/*-- MEDIA QUERIES --------*/
+/*-------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
