@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Alex Garcia - Web Designer</title>
+    <title>Alex Garcia - Web Designer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/queries.css">
-    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css"> 
+    
+    
+    <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300" rel="stylesheet">
     
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108072316-1"></script>
@@ -20,16 +27,18 @@
 </script>
     
 </head>
-
-<body>
     
-    <header-tap>
-            <nav class="nav-tap">
-                <div class="row">
-                    <a href="index.html"><img src="assets/alexface.png" alt="logo" class="logo"></a>>
-                    <ul class="main-nav">
-                        <li><a href="#">Projects</a>
-<!-- This right here is the dropdown menu -->
+  <body>
+       <!-- Header & Navigation -->
+    <header>
+        <div class="section group nav-pages">
+            <div class="col span_6_of_12">
+                <a href="index.html"><img id="logo" src="assets/alexface.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="col span_6_of_12">
+                <ul class="main-nav">
+                    <li><a href="#projects">Projects</a>
+                        <!-- This right here is the dropdown menu -->
                             <ul id='menu'>    
                                 <ul>    
                                     <li><a href='tapgo.html'>Tap & Go</a></li>    
@@ -39,12 +48,17 @@
                             </ul>
                         </li>       
 <!-- This is the end of the dropdown menu. Add this right after Projects</a> -->
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>          
-    </header-tap>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+      </header>
+<!--copy everything above and place on all pages other than index -->    
+    
+   
+
+      
         
         <section class="proj-title">
             <div class="row">
