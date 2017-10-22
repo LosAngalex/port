@@ -4,7 +4,7 @@
    @media screen and (max-width: 800px) {
         
     h1 {
-        font-size: 140%;
+        font-size: 110%;
         margin-top: 1%;
         text-align: center;
     } 
@@ -15,14 +15,14 @@
        }
     
     .bg-leaf-1 {
-        height: 100px;
-        background-attachment: local;
+        height: 110px;
+        background-attachment: scroll;
         background-repeat: no-repeat;
     }
        
     .bg-leaf-2 {
         height: 180px;
-        background-attachment: local;
+        background-attachment: scroll;
         background-repeat: no-repeat;
        }
     
