@@ -15,13 +15,13 @@
        }
     
     .bg-leaf-1 {
-        height: 110px;
+        height: 350px;
         background-attachment: scroll;
         background-repeat: no-repeat;
     }
        
     .bg-leaf-2 {
-        height: 180px;
+        height: 440px;
         background-attachment: scroll;
         background-repeat: no-repeat;
        }
@@ -44,7 +44,7 @@
     
     .main-nav li {
         display: inline-block;
-        margin: 0px 20px;
+        margin: 0px 16px;
      }
        
        
