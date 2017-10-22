@@ -122,6 +122,8 @@
        
        .tap-pages {
           height: 310vh; 
+          background-color: #063027;
+          background-image: none;
        }
        
        
