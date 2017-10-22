@@ -1,16 +1,22 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>Alex Garcia - Web Designer</title>
+    <title>Alex Garcia - Web Designer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/queries.css">
-    <link rel="stylesheet" type="text/css" href="styles/form.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/form.css"> 
     
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108072316-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -20,18 +26,19 @@
   gtag('config', 'UA-108072316-1');
 </script>
     
-    
 </head>
-
-    <body>
     
-        <header>
-            <nav class="nav">
-                <div class="row">
-                    <a href="index.html"><img src="assets/alexface.png" alt="logo" class="logo"></a>
-                    <ul class="main-nav">
-                        <li><a href="index.html#projects">Projects</a>
-<!-- This right here is the dropdown menu -->
+  <body>
+       <!-- Header & Navigation -->
+    <header>
+        <div class="section group nav-pages">
+            <div class="col span_6_of_12">
+                <a href="index.html"><img id="logo" src="assets/alexface.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="col span_6_of_12">
+                <ul class="main-nav">
+                    <li><a href="#projects">Projects</a>
+                        <!-- This right here is the dropdown menu -->
                             <ul id='menu'>    
                                 <ul>    
                                     <li><a href='tapgo.html'>Tap & Go</a></li>    
@@ -41,66 +48,68 @@
                             </ul>
                         </li>       
 <!-- This is the end of the dropdown menu. Add this right after Projects</a> -->
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>          
-            
-            
-            
-            <section class="alex-about">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+      </header>
+    
+    
+    <header>
+        <div class="section group">
+            <div class="col span_6_of_12">
+                <img class="selfie" src="assets/alexself.png">
+            </div>
+            <div class="col span_6_of_12">
                 <h2>About me</h2>
-                <div class="row row-pad padding-btm">
-                    <div class="col span-1-of-2">
-                        <img class="selfie" src="assets/alexself.png">
-                    </div>
-                    <div class="col span-1-of-2 padding-top">
-                        <div class="margin-right"><p>After spending six years in the legal field, I decided that I needed a change. I wanted to do something with my life where I can finally express my creativity. I enrolled in school and for the past year, I've been learning as much as I could about coding, desiging apps, websites and more. I always look forward to taking on new projects.</p></div>
-                    </div>
-                </div>
-            </section>
-            
-            
-            <section class="tap-case">
-                <div class="row no-pad">
+                 <div><p>After spending six years in the legal field, I decided that I needed a change. I wanted to do something with my life where I can finally express my creativity. I enrolled in school and for the past year, I've been learning as much as I could about coding, desiging apps, websites and more. I always look forward to taking on new projects.</p></div>
+            </div>
+        </div>
+    </header>
+    
+        <div class="section group white">
+            <div class="col span_12_of_12">
                     <h2>Skills</h2>
-                    <p class="padding-btm">Sketch, Photoshop, Illustrator <br> Marvel, InVision, User Research, User Testing <br> HTML, CSS</p>
-                </div>
-            </section>
+                    <p>Sketch, Photoshop, Illustrator <br> Marvel, InVision, User Research, User Testing <br> HTML, CSS</p>
+            </div>
+        </div>
             
-            
-            <section class="section-contact">
-                <div class="row no-pad">
+    
+        <div class="section group">
+            <div class="col span_12_of_12">
                     <h2>Education</h2>
-                    <p class="padding-btm">Bloc - Designer Track <br>
-                        UCLA Extension - Legal Secretary</p>
-                </div>
-            </section>
-            
-            <section class="section-about">
-                <div class="row no-pad">
+                    <p> Bloc - Designer Track <br>
+                    UCLA Extension - Legal Secretary</p>
+            </div>
+        </div>
+    
+        <div class="section group white">
+            <div class="col span_12_of_12">
                     <h2>Experience</h2>
-                    <p class="padding-btm">Conkle Kremer - Litigation Assistant <br> Weinstock Manion - Legal Secretary</p>
-                </div>
-            </section>
-       
-        <section class="footer-section">
-            <div class="row">
-                  <ul class="footer-nav-ext">
+                    <p>Conkle Kremer - Litigation Assistant <br> Weinstock Manion - Legal Secretary</p>
+            </div>
+        </div>
+            
+          
+    <!-- Footer -->
+    <div class="section group footer-nav">
+            <div class="col span_6_of_12">
+                    <ul>
                     <li><a href="#" class="btn-app"><img src="assets/github.svg" alt="github"></a></li>
                     <li><a href="#" class="btn-app"><img src="assets/behance.svg" alt="behance"></a></li>
                     </ul>
-                
-                    <ul class="footer-nav">
+            </div>
+        
+            <div class="col span_6_of_12">
+                    <ul>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
             </div>
-        </section>
-            
-    </header> 
+        </div>
+ 
         
     </body>
     

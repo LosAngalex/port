@@ -1,0 +1,112 @@
+
+/* media queries */
+
+   @media screen and (max-width: 800px) {
+        
+    h1 {
+        font-size: 140%;
+        margin-top: 1%;
+        text-align: center;
+    } 
+       
+       
+    h2 {
+        font-size: 110%;    
+       }
+    
+    .bg-leaf-1 {
+        height: 100px;
+        background-attachment: local;
+        background-repeat: no-repeat;
+    }
+       
+    .bg-leaf-2 {
+        height: 150px;
+        background-attachment: local;
+        background-repeat: no-repeat;
+       }
+    
+    .logo  {
+        margin: 0 40%;
+        margin-left: 40%;
+    }
+     
+    .main-nav {
+        list-style: none;
+        margin-top: 2%;
+        padding-left: 0px;
+        font-size: 100%;
+        text-align: center;
+        background-color: #16a085;
+        padding: 10px;
+        float: none;
+    }
+    
+    .main-nav li {
+        display: inline-block;
+        margin: 0px 20px;
+     }
+       
+       
+      .main-nav li a:hover,
+      .main-nav li a:active {
+          border-bottom: 2px solid transparent;
+       } 
+       
+       
+       .pad-btm {
+           padding-bottom: 25px;
+       }
+       
+       .btn-app img {
+           padding-right: 40px;
+       }
+       
+       .footer-nav li {
+           float: right;
+           margin-right: 20px;
+           padding: 0px;
+       }
+       
+       
+       .nav-pages {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
+            background-size: cover;
+            background-position: center;
+            height: 150px;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            }
+       
+       
+       p {
+        font-size: 80%;
+        line-height: 150%;
+        font-weight: 300;
+        word-spacing: 3px;
+        padding: 0px 60px 0px 60px;
+        text-align: center;
+        color: #555;
+       }
+       
+       .selfie {
+           height: 200px;
+           margin-left: 30%;
+       }
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+}
