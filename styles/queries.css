@@ -5,7 +5,7 @@
         
     h1 {
         font-size: 110%;
-        margin-top: 1%;
+        margin-top: 3%;
         text-align: center;
     } 
        
@@ -13,9 +13,14 @@
     h2 {
         font-size: 110%;    
        }
+       
+       
+    h2:after {
+        margin-top: 15px;
+     }
     
     .bg-leaf-1 {
-        height: 350px;
+        height: 400px;
         background-attachment: scroll;
         background-repeat: no-repeat;
     }
@@ -28,23 +33,23 @@
     
     .logo  {
         margin: 0 40%;
-        margin-left: 40%;
+        margin-left: 35%;
     }
      
     .main-nav {
         list-style: none;
-        margin-top: 2%;
+        margin-top: 1%;
         padding-left: 0px;
-        font-size: 100%;
+        font-size: 80%;
         text-align: center;
-        background-color: #16a085;
-        padding: 10px;
-        float: none;
+        width: 100%;
+      
     }
-    
+ 
     .main-nav li {
-        display: inline-block;
-        margin: 0px 16px;
+        border: 1px solid #16a085;
+        width: 100%;
+        margin: 0px;
      }
        
        
@@ -73,7 +78,7 @@
             background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
             background-size: cover;
             background-position: center;
-            height: 150px;
+            height: 250px;
             background-attachment: fixed;
             background-repeat: no-repeat;
             }
@@ -92,6 +97,11 @@
        .selfie {
            height: 200px;
            margin-left: 30%;
+       }
+       
+       
+       li:hover ul {
+           width: 71%;
        }
        
        
