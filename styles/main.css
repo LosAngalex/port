@@ -16,16 +16,9 @@ body {
     color: #532c4c;
 }
 
-img {
-    width: 100%;
-    height: auto;
+.white-txt {
+    color:white;
 }
-
-a {
-    text-decoration: none;
-    color: #534c4c;
-}
-
 
 /*-------------------------
 NAVIGATION 
@@ -106,6 +99,16 @@ h2:after {
     margin-top: 30px;
 }
 
+h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    font-size: 140%;
+    text-align: center;
+    color: #1abc9c;
+}
+
 
 p {
     font-size: 100%;
@@ -139,14 +142,26 @@ BACKGROUNDS
 }
 
 .nav-pages {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
-            background-size: cover;
-            background-position: center;
-            height: 150px;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            }
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
+     background-size: cover;
+     background-position: center;
+     height: 22vh;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     }
 
+
+
+.tap-pages {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
+     background-size: cover;
+     background-position: center;
+     height: 390vh;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     }
+    
+}
 
 .white {
     background-color: white;
@@ -303,28 +318,28 @@ ABOUT
     box-shadow: 2px 2px 10px #16a085;
 }
 
+/*-------------------------
+TAP & GO
+-------------------------*/
+/* GREEN COLOR: #16a085 */
 
 
+.tap-hero {
+    background-color: #fff;
+    text-align: center;
+}
 
+.persona {
+    width: 60%;
+    height: auto;
+    padding-left: 20%;
+}
 
 
 
 
 
 /*
-
-h3 {
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    word-spacing: 3px;
-    font-size: 110%;
-    text-align: center;
-    color: #1abc9c;
-    margin-top: 12%;
-
-
-
 
 
 
@@ -360,41 +375,6 @@ h3 {
 /*-------------------------*/
 /*-- TAP & GO      --------*/
 /*-------------------------
-
-
-.nav-tap {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
-    background-size: contain;
-    background-position: center;
-    height: 150px;
-    background-attachment: fixed;
-}
-
-.next-btn {
-    margin-top: -25px;
-    margin-bottom: 3%;
-}
-
-.btn-txt {
-    color: #1abc9c;
-    display: inline-block;
-    margin-left: 85%;
-}
-
-
-.next-section {
-    margin: -60px;
-}
-
-.tap-title h2:after {
-    display: block;
-    height: 2px;
-    background-color: transparent;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
 
 .tap-hero {
     background-color: #fff;
@@ -439,11 +419,6 @@ h3 {
     margin-top: -40px;
 }
 
-.persona {
-    width: 550px;
-    height: auto;
-    padding: 10px 0px 10px 0px;
-}
 
 
 /*-------------------------*/
