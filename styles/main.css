@@ -1,7 +1,6 @@
 /*-------------------------
 GLOBAL STYLES 
 -------------------------*/
-
 html {
     background-color: #fff;
     font-size: 20px;
@@ -23,7 +22,6 @@ body {
 /*-------------------------
 NAVIGATION 
 -------------------------*/
-
 .logo {
     text-align: center;
     max-width: 30%;
@@ -65,7 +63,6 @@ NAVIGATION
 /*-------------------------
 HEADERS & TEXT
 -------------------------*/
-
 h1 {
     font-family: 'Josefin Slab';
     margin-left: 3%;
@@ -77,7 +74,6 @@ h1 {
     color: #FFF;
 }
 
-
 h2 {
     font-weight: 300;
     text-transform: uppercase;
@@ -87,7 +83,6 @@ h2 {
     text-align: center;
     color: #555;
 }
-
 
 h2:after {
     display: block;
@@ -109,7 +104,6 @@ h3 {
     color: #1abc9c;
 }
 
-
 p {
     font-size: 100%;
     line-height: 155%;
@@ -123,8 +117,6 @@ p {
 /*-------------------------
 BACKGROUNDS
 -------------------------*/
-
-
 .bg-leaf-1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
     background-size: cover;
@@ -149,7 +141,6 @@ BACKGROUNDS
      background-attachment: fixed;
      background-repeat: no-repeat;
      }
-
 
 .screen {
      background-image: url(img/oakheroimage.png);
@@ -178,7 +169,6 @@ BACKGROUNDS
      background-repeat: no-repeat;
      }
 
-
 .oak-pages {
      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
      background-size: cover;
@@ -203,11 +193,9 @@ BACKGROUNDS
     text-align: center;
 }
 
-
 .white {
     background-color: white;
 }
-
 
 /*-------------------------
 BUTTONS
@@ -233,13 +221,11 @@ input[type=submit] {
     color: #fff;
 }
 
-
 .btn-full:hover,
 .btn-full:active {
     border: 1px solid #16a085;
 }
     
-
 .btn:hover,
 .btn:active,
 input[type=submit]:hover,
@@ -251,11 +237,9 @@ input[type=submit]:active {
 /*-------------------------
 FOOTER
 -------------------------*/
-
 .footer-nav {
     background-color: #1abc9c;
-    padding: 30px 0px;
-    
+    padding: 30px 0px; 
 }
 
 .footer-nav li {
@@ -264,7 +248,6 @@ FOOTER
     display: inline-block;
     margin-right: 80px;
 }
-
 
 .footer-nav li a:link,
 .footer-nav li a:visited {
@@ -290,39 +273,42 @@ FOOTER
     display: block;
 }
 
-
 /*-------------------------
 FOOTER
 -------------------------*/
 /* GREEN COLOR: #16a085 */
-
 ul {     
     padding:0;     
     margin:0;   
-}    
+} 
+
 a {    
     display:block;    
     text-decoration: none;
-    
-}    
+}   
+
 li {    
     display:block;     
     float:left; 
-    
-}    
+}   
+
 li ul li {    
     float:none;    
-}    
+} 
+
 li ul {    
     display:none;     
     position:absolute;     
     z-index:1    
-}    
+} 
+
 li:hover ul {    
     display:block;
-}    
-    
-/*DROPDOWN STYLING: */
+}
+
+/*-------------------------
+DROPDOWN MENU
+-------------------------*/
 #menu {    
     height:30px    
 }    
@@ -348,8 +334,6 @@ li:hover ul {
 ABOUT
 -------------------------*/
 /* GREEN COLOR: #16a085 */
-
-
 .selfie {
     height: 400px;
     width: auto;
@@ -360,12 +344,9 @@ ABOUT
 }
 
 /*-------------------------
-TAP & GO
+PROJECT PAGES
 -------------------------*/
 /* GREEN COLOR: #16a085 */
-
-
-
 .persona {
     width: 60%;
     height: auto;
@@ -377,72 +358,3 @@ TAP & GO
     height: auto;
     margin-left: 30%;
 }
-
-
-/*
-
-
-
-/*-------------------------*/
-/*-- LIBRA         --------*/
-/*-------------------------
-
-.libra-title {
-    background-color: #f4f4f4;
-    padding-top: 10px;
-    height: 180px;
-    text-align: center;
-}
-
-.libra-hero {
-    background-image: url(img/libraheroimage.png);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    color: #fff;
-   
-}
-
-.libra-screens {
-    background-color: #f4f4f4;
-    vertical-align: middle; 
-}
-
-
-.libra-pkg {
-    margin-left: 22%;
-}
-
-.libra-style  {
-    padding: 40px;
-}
-
-
-
-/*-------------------------*/
-/*-- CONTACT --------------*/
-/*-------------------------
-
-#fixed-footer .by .button {
-    display: none;
-}
-
-
-.section-contact {
-    background-color: #ffffff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,156 +1,166 @@
+/*-------------------------
+PHONES
+-------------------------*/
 
-/* media queries */
+/* GLOBAL */ 
 
-   @media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
         
-    h1 {
-        font-size: 110%;
-        margin-top: 3%;
-        text-align: center;
-    } 
+h1 {
+    font-size: 138%;
+    margin-top: 2%;
+    text-align: center;
+    margin-left: 0px;
+} 
        
        
-    h2 {
-        font-size: 110%;    
-       }
+h2 {
+    font-size: 110%;    
+}
        
        
-    h2:after {
-        margin-top: 15px;
-     }
+h2:after {
+    margin-top: 15px;
+}
     
-    .bg-leaf-1 {
-        height: 400px;
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-    }
-       
-    .bg-leaf-2 {
-        height: 440px;
-        background-attachment: scroll;
-        background-repeat: no-repeat;
-       }
+h3 {
+    font-size: 90%;
+}
+
+.logo  {
+    margin: 0 40%;
+    margin-left: 35%;
+}
     
-    .logo  {
-        margin: 0 40%;
-        margin-left: 35%;
-    }
-     
-    .main-nav {
-        list-style: none;
-        margin-top: 1%;
-        padding-left: 0px;
-        font-size: 80%;
-        text-align: center;
-        width: 100%;
+p {
+    font-size: 80%;
+    line-height: 150%;
+    font-weight: 300;
+    word-spacing: 3px;
+    padding: 0px 60px 0px 60px;
+    text-align: center;
+    color: #555;
+}
+    
+li:hover ul {
+    width: 71%;
+}
+    
+img {
+    width: 75%;
+}
+    
+/* BACKGROUNDS */ 
       
-    }
+.bg-leaf-1 {
+    height: 400px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+       
+.bg-leaf-2 {
+    height: 440px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+       }
+    
+/* NAVIGATION */
+
+.main-nav {
+    list-style: none;
+    margin-top: 1%;
+    padding-left: 0px;
+    font-size: 80%;
+    text-align: center;
+    width: 100%;
+      
+}
  
-    .main-nav li {
-        border: 1px solid #16a085;
-        width: 100%;
-        margin: 0px;
-     }
+.main-nav li {
+    border: 1px solid #16a085;
+    width: 101%;
+    margin: 0px;
+}
+    
+.nav-pages {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
        
-       
-      .main-nav li a:hover,
-      .main-nav li a:active {
-          border-bottom: 2px solid transparent;
-       } 
-       
-       
-       .pad-btm {
-           padding-bottom: 25px;
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid transparent;
+} 
+    
+/* PAGE SPECIFIC */
+           
+.pad-btm {
+    padding-bottom: 25px;
+}
+    
+.selfie {
+    height: 200px;
+    margin-left: 30%;
+}
+    
+.projects {
+    width: 100%;
+}
+    
+.persona {
+    width: 100%;
+    padding-left: 0;
        }
+    
+.tap-pages {
+    height: 300vh; 
+    background-color: #063027;
+    background-image: none;
+}
        
-       .btn-app img {
-           padding-right: 40px;
-       }
+.oak-pages {
+    height: 85vh; 
+    background-color: #063027;
+    background-image: none;
+}
        
-       .footer-nav li {
-           float: right;
-           margin-right: 20px;
-           padding: 0px;
-       }
+.persona-libra {
+    width: 60%;
+    margin-left: 25%;
+    margin-top: 10%;
+}
+    
+.libra-pages {
+    height: 185vh; 
+    background-color: #063027;
+    background-image: none;
+}
+    
+.screen {
+    background-attachment:scroll;
+    height: 20vh;
+}
+    
+.screen-libra {
+    background-attachment:scroll;
+    height: 20vh;
+}
+    
+/* BUTTONS */
        
+.btn-app img {
+    padding-right: 40px;
+}
        
-       .nav-pages {
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
-            background-size: cover;
-            background-position: center;
-            height: 250px;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            }
+.footer-nav li {
+    float: right;
+    margin-right: 20px;
+    padding: 0px;
+}
        
-       
-       p {
-        font-size: 80%;
-        line-height: 150%;
-        font-weight: 300;
-        word-spacing: 3px;
-        padding: 0px 60px 0px 60px;
-        text-align: center;
-        color: #555;
-       }
-       
-       .selfie {
-           height: 200px;
-           margin-left: 30%;
-       }
-       
-       
-       li:hover ul {
-           width: 71%;
-       }
-       
-       
-      img {
-           width: 75%;
-       }
-       
-       
-       .projects {
-           width: 100%;
-       }
-       
-       
-       h3 {
-           font-size: 90%;
-       }
-       
-       
-       .persona {
-           width: 100%;
-           padding-left: 0;
-       }
-       
-       .tap-pages {
-          height: 315vh; 
-          background-color: #063027;
-          background-image: none;
-       }
-       
-          .oak-pages {
-          height: 85vh; 
-          background-color: #063027;
-          background-image: none;
-       }
-       
-       .persona-libra {
-           width: 60%;
-           margin-left: 25%;
-           margin-top: 10%;
-       }
-       
-       .span_6_of_12 {
-           width: 100%;
-       }
-       
-       
-     .libra-pages {
-          height: 230vh; 
-          background-color: #063027;
-          background-image: none;
-       }
-   
+
+ 
