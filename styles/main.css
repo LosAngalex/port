@@ -19,14 +19,6 @@ body {
     color:white;
 }
 
-#content-desktop {
-display: inline;
-}
-
-#content-mobile {
-display: none;
-}
-
 /*-------------------------
 NAVIGATION 
 -------------------------*/
