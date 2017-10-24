@@ -4,7 +4,7 @@ PHONES
 
 /* GLOBAL */ 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
         
 h1 {
     font-size: 138%;
@@ -62,7 +62,7 @@ img {
     height: 440px;
     background-attachment: scroll;
     background-repeat: no-repeat;
-       }
+}
     
 /* NAVIGATION */
 
@@ -73,7 +73,6 @@ img {
     font-size: 80%;
     text-align: center;
     width: 100%;
-      
 }
  
 .main-nav li {
@@ -114,7 +113,7 @@ img {
 .persona {
     width: 100%;
     padding-left: 0;
-       }
+}
     
 .tap-pages {
     height: 300vh; 
@@ -161,6 +160,6 @@ img {
     margin-right: 20px;
     padding: 0px;
 }
-       
-
+    
+}
  
