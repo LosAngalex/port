@@ -1,16 +1,22 @@
-
 <!DOCTYPE html>
 <html>
 <head>
-<title>Alex Garcia - Web Designer</title>
+    <title>Alex Garcia - Web Designer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/queries.css">
-    <link rel="stylesheet" type="text/css" href="styles/form.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/form.css"> 
     
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108072316-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -20,20 +26,19 @@
   gtag('config', 'UA-108072316-1');
 </script>
     
-    
-    
-    
 </head>
-
-    <body>
     
-        <header>
-            <nav class="nav">
-                <div class="row">
-                    <a href="index.html"><img src="assets/alexface.png" alt="logo" class="logo"></a>
-                    <ul class="main-nav">
-                        <li><a href="#projects">Projects</a>
-<!-- This right here is the dropdown menu -->
+  <body>
+       <!-- Header & Navigation -->
+    <header>
+        <div class="section group nav-pages">
+            <div class="col span_4_of_12">
+                <a href="index.html"><img id="logo" src="assets/alexface.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="col span_8_of_12">
+                <ul class="main-nav">
+                    <li><a href="#projects">Projects</a>
+                        <!-- This right here is the dropdown menu -->
                             <ul id='menu'>    
                                 <ul>    
                                     <li><a href='tapgo.html'>Tap & Go</a></li>    
@@ -43,40 +48,40 @@
                             </ul>
                         </li>       
 <!-- This is the end of the dropdown menu. Add this right after Projects</a> -->
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>          
-            
-          
-            
-        <section id="contact" class="section-projects row-pad">
-            <div class="row">
-                <h2>I can't wait to hear from you!</h2>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
+        </div>
+      </header>
+<!--copy everything above and place on all pages other than index -->   
+      
+      
+      <div class="section group">
+       <h2>Contact me</h2>
+       <div class="text-align:center">
+           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSchnfwRM0DtIaYDJzSRnSeeHueMJDW2mwBZPTNVt-0GpIzoHA/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0"  marginwidth="0">Loading...</iframe></div>
+      </div>
             
-     <div><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSchnfwRM0DtIaYDJzSRnSeeHueMJDW2mwBZPTNVt-0GpIzoHA/viewform?embedded=true" width="1140" height="1200" frameborder="0" marginheight="0"  marginwidth="0">Loading...</iframe></div>
-        
-        </section>    
-    
-        <section class="footer-section">
-            <div class="row">
-                  <ul class="footer-nav-ext">
+          <!-- Footer -->
+    <div class="section group footer-nav">
+            <div class="col span_6_of_12">
+                    <ul>
                     <li><a href="#" class="btn-app"><img src="assets/github.svg" alt="github"></a></li>
                     <li><a href="#" class="btn-app"><img src="assets/behance.svg" alt="behance"></a></li>
-                </ul>
-                
-                    <ul class="footer-nav">
+                    </ul>
+            </div>
+        
+            <div class="col span_6_of_12">
+                    <ul>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
             </div>
-        </section>
-            
-    </header> 
-        
+        </div>
+      
     </body>
-    
 </html>
+  
+        

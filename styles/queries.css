@@ -126,7 +126,7 @@
        }
        
        .tap-pages {
-          height: 310vh; 
+          height: 315vh; 
           background-color: #063027;
           background-image: none;
        }
@@ -143,12 +143,14 @@
            margin-top: 10%;
        }
        
+       .span_6_of_12 {
+           width: 100%;
+       }
        
        
-       
-       
-       
-       
-       
-       
-}
+     .libra-pages {
+          height: 230vh; 
+          background-color: #063027;
+          background-image: none;
+       }
+   

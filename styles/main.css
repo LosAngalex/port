@@ -188,6 +188,16 @@ BACKGROUNDS
      background-repeat: no-repeat;
      }
 
+.libra-pages {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
+     background-size: cover;
+     background-position: center;
+     height: 220vh;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     }
+
+
 .hero {
     background-color: #fff;
     text-align: center;
