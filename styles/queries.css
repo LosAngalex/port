@@ -122,6 +122,7 @@ img {
     height: 300vh; 
     background-color: #063027;
     background-image: none;
+    background-attachment: scroll;
 }
        
 .oak-pages {
