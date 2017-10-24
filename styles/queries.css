@@ -4,7 +4,7 @@ PHONES
 
 /* GLOBAL */ 
 
-@media screen and (max-width: 767px) {
+    @media screen and (max-width: 767px) {
         
 h1 {
     font-size: 138%;
@@ -12,7 +12,10 @@ h1 {
     text-align: center;
     margin-left: 0px;
 } 
-       
+
+.desktop-only {
+    display: none !important;     
+}
        
 h2 {
     font-size: 110%;    
