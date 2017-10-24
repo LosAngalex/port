@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Alex Garcia - Web Designer</title>
+    <title>Alex Garcia - Web Designer</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
     
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <link rel="stylesheet" type="text/css" href="styles/queries.css">
-    <link rel="stylesheet" type="text/css" href="styles/form.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/form.css"> 
     
-        <!-- Global site tag (gtag.js) - Google Analytics -->
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:300" rel="stylesheet">
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108072316-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -18,18 +25,20 @@
 
   gtag('config', 'UA-108072316-1');
 </script>
-       
-</head>
-
-<body>
     
-    <header-tap>
-            <nav class="nav-tap">
-                <div class="row">
-                    <a href="index.html"><img src="assets/alexface.png" alt="logo" class="logo"></a>
-                    <ul class="main-nav">
-                        <li><a href="#">Projects</a>
-<!-- This right here is the dropdown menu -->
+</head>
+    
+  <body>
+       <!-- Header & Navigation -->
+    <header>
+        <div class="section group nav-pages">
+            <div class="col span_4_of_12">
+                <a href="index.html"><img id="logo" src="assets/alexface.png" alt="logo" class="logo"></a>
+            </div>
+            <div class="col span_8_of_12">
+                <ul class="main-nav">
+                    <li><a href="#projects">Projects</a>
+                        <!-- This right here is the dropdown menu -->
                             <ul id='menu'>    
                                 <ul>    
                                     <li><a href='tapgo.html'>Tap & Go</a></li>    
@@ -39,125 +48,143 @@
                             </ul>
                         </li>       
 <!-- This is the end of the dropdown menu. Add this right after Projects</a> -->
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>          
-    </header-tap>
-        
-        <section class="proj-title">
-            <div class="row">
-                <img src="assets/oakvinelogo.png">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
             </div>
-        </section>
-            
-            <section class="oak-hero">
-                <div class="row">
-                </div>  
-            </section>
-            
-            
-            <section class="tap-screens">
-                <h2 class="tappy">What makes it different?</h2>
-                <div class="row row-pad">
-                    <div class="col span-1-of-2">
-                        <img src="assets/oakscreen1.png">
-                    </div>
-                    <div class="col span-1-of-2">
-                        <h3>Learn while you shop</h3>
-                        <p>Curated collections, advanced filtering options and articles about wine are all part of the Oak & Vine site. </p>
-                    </div>
-                </div>
-                
-                 <div class="row">
-                    <div class="col span-1-of-2">
-                        <h3>Oak & Vine knows what you like</h3>
-                        <p>Answer a few questions using the quiz and Oak & Vine will find your perfect bottle.</p>
-                    </div>
-                    <div class="col span-1-of-2">
-                        <img src="assets/oakscreen2.png">
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col span-1-of-2">
-                        <img src="assets/oakscreen3.png">
-                    </div>
-                    <div class="col span-1-of-2">
-                        <h3>Shop with confidence</h3>
-                        <p>With tasting notes, food pairing suggestions and winery information, each product page is filled with all the information you need to know. </p>
-                    </div>
-                </div>
-            </section>
-            
-            <section class="tap-case">
-                <div class="row">
-                    <h2>Design</h2>
-                    <p>The Oak & Vine site has a lot of components, so it is very important to keep continuity throughout the pages. Creating a style guide like the one below assists me in making sure each page is uniform.</p>
-                
-               <div class="oak-style"><img src="assets/oakstyleguide.png"></div>
-                    
-                <section class="section-projects">
-                    <div class="row row-oak">
-                    
-                    <h2>Concept & Research</h2>
+        </div>
+      </header>
+<!--copy everything above and place on all pages other than index -->    
+    
+    
+    
+    <div class="section group hero">
+        <div class="col span_12_of_12">
+            <img src="assets/oakvinelogo.png">
+        </div>
+      </div>
+    
+    
+    <div class="section group screen">
+        <div class="col span_12_of_12">
+        </div>
+      </div>
+      
+    <div class="section group">
+        <div class="col span_12_of_12">
+            <h2>What makes it different?</h2>
+        </div>
+      </div>
+    
+    
+          <div class="section group">
+        <div class="col span_6_of_12">
+            <img style="margin-left:10%" src="assets/oakscreen1.png">
+        </div>
+          <div>
+          <div class="col span_6_of_12">
+            <h3 style="margin-top:15%">Learn while you shop</h3>
+            <p>Curated collections, advanced filtering options and articles about wine are all part of the Oak & Vine site. 
+      </div>
+          
+          
+    <div class="section group">
+        <div class="col span_6_of_12">
+             <h3 style="margin-top:15%">Oak & Vine knows what you like</h3>
+            <p>Answer a few questions using the quiz and Oak & Vine will find your perfect bottle.</p>
+        </div>
+          <div>
+          <div class="col span_6_of_12">
+           <img style="margin-left:10%" src="assets/oakscreen2.png">
+        </div>
+      </div>
+         </div>
+              
+              
+        <div class="section group">
+        <div class="col span_6_of_12">
+            <img style="margin-left:10%" src="assets/oakscreen3.png">
+        </div>
+          <div>
+          <div class="col span_6_of_12">
+            <h3 style="margin-top:15%">Shop with confidence</h3>
+              <p>With tasting notes, food pairing suggestions and winery information, each product page is filled with all the information you need to know. </p>
+      </div>
+              
+              
+            <div class="section group oak-pages">
+        <div class="col span_12_of_12">
+            <h2 class="white-txt">Design</h2>
+            <p class="white-txt">The Oak & Vine site has a lot of components, so it is very important to keep continuity throughout the pages. Creating a style guide like the one below assists me in making sure each page is uniform.</p>
+            <div class="col span_12_of_12">
+                <img class="persona" src="assets/oakstyleguide.png">
+            </div>
+        </div>
+      </div>
+              
+              <div class="section group">
+                  <div class="col span_12_of_12">
+                       <h2>Concept & Research</h2>
                         <p>What is it that makes Oak & Vine different than any other online wine store? Well, part of it would be the "Wine Finder Quiz" - A quiz that matches you with a variety of awesome wines that are guaranteed to make you smile. Oak & Vine gives all customers a clear starting place. Using the wine finder quiz, you only have to answer a few short questions to get wine recommendations based on your results. </p>
-                    
-                    
-                        <div class="oak-style">
-                        <img src="assets/oakquizresults.png">
-                        </div>
+                       <img style="margin-left:2%" class="persona" src="assets/oakquizresults.png">
+                      <p>But why a quiz? Well, while doing research, I found a site that has a great wine quiz but the result ends up taking you to a wine subscription service. Other wine quizzes have results that are purely informational or the results are way too detailed. In one of the surveys I conducted, a majority of participants said that they would use the tool:</p>
                         
-                        
-                        <p>But why a quiz? Well, while doing research, I found a site that has a great wine quiz but the result ends up taking you to a wine subscription service. Other wine quizzes have results that are purely informational or the results are way too detailed. In one of the surveys I conducted, a majority of participants said that they would use the tool:</p>
-                        
-                        <div><img src="assets/quiztool.png"></div>
+                        <div><img class="persona" src="assets/quiztool.png"></div>
                         
                         <p>I personally like the idea of having a subscription service, but in another survey, I found out that most people would rather purchase bottles individually:</p>
                         
-                        <div><img src="assets/quizsubscription.png"></div>
+                        <div><img class="persona" src="assets/quizsubscription.png"></div>
                  
                         <p>However, what if you already know what kind of wine you like? Well, nearly 70% of people who took my survey say that they can hold their own when it comes to wine.</p>
                             
-                        <div><img src="assets/quizexpert.png"></div>
+                        <div><img class="persona" src="assets/quizexpert.png"></div>
                         
                         <p>But then again, like many of us, 80% of respondents are still searching for "the one". </p>
                             
-                        <div><img src="assets/quizlikes.png"></div>
+                        <div><img class="persona" src="assets/quizlikes.png"></div>
                         
                         <p>So conclusively, even if you know that you prefer pinot noir over merlot, shopping online for wine can still be difficult. There are enless bottles of wine out there and the goal of Oak & Vine is simply to help you find something that you'll enjoy without having to spend extensive time searching. 
                         That's why beyond the fantastic wine finder quiz, Oak & Vine also features highly customizable search and filter options, customer reviews, articles and of course big, bold icons so flavor profiles can be easily identified at a glance.</p>
                       
-                        <div class="padding-btm"><img src="assets/flavorprofiles.png"></div> 
-                    </div>     
-                </section>
-                    
-                </div>
-            </section>
+                        <div><img class="persona" src="assets/flavorprofiles.png"></div>
+                  </div>
+              </div>
+                   
+               
+        <div class="section group">
+             <div class="col span_12_of_12">
+                 <div style="text-align:center"><a href="libra.html" class="btn btn-full">Go To Next Project: "Libra"</a></div>
+             </div>
+        </div>
+      </div>
+              </div>
+              </div>
+      </div>
     
+      
+          
     
-    
-            <section>
-                <div class="row">
-                        <div class="next-btn"><a href="libra.html" class="btn btn-full">Go To Next Project: "Libra"</a></div>
-                </div>
-            </section>
-       
-        <section class="footer-section">
-            <div class="row">
-                  <ul class="footer-nav-ext">
+    <!-- Footer -->
+    <div class="section group footer-nav">
+            <div class="col span_6_of_12">
+                    <ul>
                     <li><a href="#" class="btn-app"><img src="assets/github.svg" alt="github"></a></li>
                     <li><a href="#" class="btn-app"><img src="assets/behance.svg" alt="behance"></a></li>
-                </ul>
-                
-                    <ul class="footer-nav">
+                    </ul>
+            </div>
+        
+            <div class="col span_6_of_12">
+                    <ul>
                         <li><a href="#projects">Projects</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
             </div>
-        </section>
+        </div>
+             
+
+              
+       
     
     </body>
 

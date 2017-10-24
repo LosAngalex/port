@@ -3,7 +3,7 @@ GLOBAL STYLES
 -------------------------*/
 
 html {
-    background-color: pink;
+    background-color: #fff;
     font-size: 20px;
 }
 
@@ -151,6 +151,23 @@ BACKGROUNDS
      }
 
 
+.screen {
+     background-image: url(img/oakheroimage.png);
+     background-size: cover;
+     background-position: center;
+     height: 50vh;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     }
+
+.screen-libra {
+     background-image: url(img/libraheroimage.png);
+     background-size: cover;
+     background-position: center;
+     height: 50vh;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     }
 
 .tap-pages {
      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
@@ -160,8 +177,22 @@ BACKGROUNDS
      background-attachment: fixed;
      background-repeat: no-repeat;
      }
-    
+
+
+.oak-pages {
+     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
+     background-size: cover;
+     background-position: center;
+     height: 130vh;
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     }
+
+.hero {
+    background-color: #fff;
+    text-align: center;
 }
+
 
 .white {
     background-color: white;
@@ -324,10 +355,6 @@ TAP & GO
 /* GREEN COLOR: #16a085 */
 
 
-.tap-hero {
-    background-color: #fff;
-    text-align: center;
-}
 
 .persona {
     width: 60%;
@@ -335,132 +362,15 @@ TAP & GO
     padding-left: 20%;
 }
 
+.persona-libra {
+    width: 60%;
+    height: auto;
+    margin-left: 30%;
+}
+
+
 /*
 
-
-
-
-.section-about {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor2.jpg);
-    background-size: contain;
-    background-position: center;
-    height: 100;
-    background-attachment: fixed;
-}
-
-.section-about h2 {
-    color: #fff;
-    font-size: 170%;
-    text-align: center;
-    margin-bottom: 30px;
-    font-weight: 300;
-}
-
-.section-about h3 {
-    color: #fff;
-    font-size: 130%;
-}
-
-.section-about p {
-    color: #fff;
-    font-weight: 300;
-}
-
-
-
-/*-------------------------*/
-/*-- TAP & GO      --------*/
-/*-------------------------
-
-.tap-hero {
-    background-color: #fff;
-    text-align: center;
-}
-
-.tap-hero h2 {
-    margin-top: 60px;
-}
-
-.tap-screens {
-    margin-top: 40px;
-    background-color: #fff;
-    vertical-align: middle; 
-}
-
-.img3 {
-    margin-left: 140px;
-    resize: 180%
-}
-
-.tap-event {
-    margin-left: 120px;
-    width: 58%;
-    height: auto;
-}
-
-.tap-case {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/watercolor.png);
-    background-size: contain;
-    background-position: center;
-    height: 150;
-    background-attachment: fixed;
-    color: #fff;
-}
-
-.tap-sec-headers {
-    padding-bottom: 50px;
-}
-
-
-
-
-
-/*-------------------------*/
-/*-- OAK & VINE    --------*/
-/*-------------------------
-
-.oak-title h2:after {
-    display: block;
-    height: 2px;p
-    background-color: transparent;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-.oak-hero {
-    background-image: url(img/oakheroimage.png);
-    background-size: cover;
-    background-position: center;
-    height: 300px;
-    color: #fff;
-    
-}
-
-.oak-screens {
-    background-color: #fff;
-    vertical-align: middle; 
-}
-
-
-.oak-screens h3 {
-    margin: 60px 30px;
-}
-
-.oak-style img {
-    margin-top: 3%;
-    height: 450px;
-    width: auto;
-    margin-bottom: 3%;
-}
-
-.oak-style:last-child img {
-    margin-top: 30px;
-    height: auto;
-    width: 600px;
-    margin-left: 22%;
-}
 
 
 /*-------------------------*/
@@ -497,20 +407,6 @@ TAP & GO
     padding: 40px;
 }
 
-/*-------------------------*/
-/*-- ABOUT         --------*/
-/*-------------------------
-/* GREEN COLOR: #16a085 
-
-
-
-
-.alex-about {
-    background-color: #fff;
-    vertical-align: middle; 
-    margin-top: 35px;
-}
-
 
 
 /*-------------------------*/
@@ -525,16 +421,6 @@ TAP & GO
 .section-contact {
     background-color: #ffffff;
 }
-
-
-/*-------------------------*/
-/*-- MEDIA QUERIES --------*/
-/*-------------------------
-
-
-
-
-
 
 
 

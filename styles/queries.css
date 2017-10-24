@@ -105,8 +105,13 @@
        }
        
        
-       img {
+      img {
            width: 75%;
+       }
+       
+       
+       .projects {
+           width: 100%;
        }
        
        
@@ -126,7 +131,17 @@
           background-image: none;
        }
        
+          .oak-pages {
+          height: 85vh; 
+          background-color: #063027;
+          background-image: none;
+       }
        
+       .persona-libra {
+           width: 60%;
+           margin-left: 25%;
+           margin-top: 10%;
+       }
        
        
        
