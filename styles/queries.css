@@ -89,7 +89,7 @@ img {
     background-size: cover;
     background-position: center;
     height: 250px;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
 }
        
