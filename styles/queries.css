@@ -6,6 +6,10 @@ PHONES
 
     @media screen and (max-width: 767px) {
         
+html {
+    overflow-x: hidden;
+}
+        
 h1 {
     font-size: 138%;
     margin-top: 2%;
@@ -111,6 +115,8 @@ img {
     
 .projects {
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
     
 .persona {
@@ -163,7 +169,7 @@ img {
     float: right;
     margin-right: 20px;
     padding: 0px;
-}
+} 
     
 }
  
